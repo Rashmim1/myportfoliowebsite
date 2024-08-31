@@ -1262,6 +1262,40 @@ img {
   }
 
 }
+@media screen and (max-width: 750px) and (min-width: 350px) {
+  .qualification__data {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .qualification__data div {
+      flex: unset;
+      width: 100%;
+      text-align: left;
+  }
+
+  .qualification__title {
+      font-size: 1rem;
+  }
+
+  .qualification__subtitle {
+      font-size: 0.9rem;
+  }
+
+  .qualification__calendar {
+      font-size: 0.8rem;
+  }
+
+  .qualification__rounder {
+      margin: 1rem 0;
+  }
+
+  .qualification__line {
+      height: 50px;
+      margin: 0 auto;
+  }
+}
+
 
 /* For large devices */
 @media screen and (min-width:1024px)
